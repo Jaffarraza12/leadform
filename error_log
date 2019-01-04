@@ -1,0 +1,5 @@
+[10-Nov-2018 08:48:57 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/adornherbal/public_html/apna/config/connection.php on line 22
+[10-Nov-2018 08:56:29 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'adornher_dbherbal'@'localhost' (using password: YES) in /home/adornherbal/public_html/apna/config/connection.php on line 22
+[10-Nov-2018 08:56:34 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'adornher_dbherbal'@'localhost' (using password: YES) in /home/adornherbal/public_html/apna/config/connection.php on line 22
+[10-Nov-2018 08:57:49 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'adornher_dbherbal'@'localhost' (using password: YES) in /home/adornherbal/public_html/apna/config/connection.php on line 22
+[10-Nov-2018 08:57:50 Etc/GMT] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'adornher_dbherbal'@'localhost' (using password: YES) in /home/adornherbal/public_html/apna/config/connection.php on line 22

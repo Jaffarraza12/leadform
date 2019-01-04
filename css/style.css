@@ -1,0 +1,386 @@
+.header{
+    background-image: url("../img/header.png");
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+    width: 100%;
+    height: 150px;
+    margin: 0 auto;
+
+}
+body{
+    font-family: Myriad Pro Regular !important;
+}
+
+.btn-apna{
+   background:url('./../img/bUTTON.png') no-repeat;
+   width:396px;;
+   font-size:0px;
+   height:76px;
+   border:none;
+
+}
+.header .header-inner{
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+.header .header-inner .logo a img{
+    margin-top: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
+    padding: 5px 0px;
+
+}
+.header .header-inner .social{
+    margin-right: 48px;
+    margin-top: 38px;
+    float: right;
+    text-align: right;
+    font-size: 27px;
+}
+.header .header-inner .social a{
+    color: white;
+    float: left;
+    margin-top: 9px;
+}
+.header .header-inner .social a:hover{
+    text-decoration: none;
+}
+.header .header-inner .social a img{
+    width: 35px;
+    height: 35px;
+}
+.banner{
+    position: relative;
+}
+.banner .banner-image{
+    background-image: url("./../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 775px;
+    margin-top: -6px;
+
+}
+.banner .banner-image .sec1{
+    float: left;
+    width: 768px;
+}
+.banner .banner-image .sec1 .left-pannel{
+    float: left;
+    margin-top: 145px;
+    color: white;
+    font-weight: 700;
+    background-color: rgba(0,0,0,0.5);
+    width: 768px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-family: Levenim MT
+
+}
+.banner .sec1 .left-pannel p{
+    font-size: 19px;
+    margin: 0 0 24px !important;
+}
+.banner .left-pannel img{
+    height: 20px;
+    width: 17px;
+    margin: 5px 0;
+}
+.banner .sec1 .left-pannel span {
+    padding-left: 10px;
+}
+.banner .banner-image .sec1 .downarrow{
+    display: none;
+}
+.banner .banner-image .sec2{
+    background-color: rgba(0,0,0,0.7);
+    float: left;
+    width: 450px;
+    height: 620px;
+    margin-top: 54px;
+    border-radius: 10px;
+}
+.banner .sec2 .form{
+    padding: 5px 0;
+}
+.banner .sec2 .form label{
+    text-align: left;
+    display: block;
+    float: left;
+    color: white;
+    font-family: arial;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 28px;
+
+}
+.banner .sec2 .form input{
+    border-radius: 12px;
+    height: 55px;
+    margin-bottom: 0px;
+    margin-left: 28px !important;
+    width: 89%;
+    padding: 2px !important;
+}
+.banner .sec2 .form select{
+    width: 90%;
+    border-radius: 12px;
+    height: 55px;
+    margin-bottom: 0px;
+    margin-left: 28px !important;
+}
+.banner .sec2 .button{
+    width: 89%;
+    margin: 9px auto;
+}
+.banner .sec2 .button{
+    width: 86%;
+    margin: 20px auto;
+}
+footer .footer{
+    clear: both;
+    position: relative;
+    background-image: url("../img/footer.png");
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: -55px auto -24px;
+    height: 90px;
+}
+footer .footer .footer-social{
+    color: black;
+    float: left;
+    font-size: 18px;
+    font-weight: 700;
+    padding-left: 61px;
+    padding-top: 26px;
+    font-family: Levenim MT
+}
+footer .footer .footer-social a img{
+    width: 27px;
+}
+
+footer .footer .right-footer {
+    float: right;
+}
+footer .footer .right-footer h1{
+    padding-top: 10px;
+    color: white;
+    text-align: right;
+    font-size: 18px;
+    font-family: Levenim MT;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: -13px;
+    padding-right: 20px;
+
+}
+footer .footer .right-footer h2{
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    font-family: Levenim MT;
+    font-weight: normal;
+    padding-right: 20px;
+
+}
+
+footer .footer .right-footer h1,h2 a {
+    color: white !important;
+    text-decoration: none;
+}
+footer .footer .right-footer h1,h2 a:hover {
+    text-decoration: none;
+}
+.col-md-7,.col-md-5{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+/*-----------------media query---------------------*/
+
+@media only screen and  (max-width:1232px) {
+
+    .header {
+        background-size: 1150px 150px;
+        /*width: 1150px;*/
+        /*padding-right: 15px;*/
+    }
+    .right-footer h2 {
+        font-size: 17px;
+        padding-right: 14px;
+    }
+    img.arrow {
+        width: 600px !important;
+    }
+
+    .banner-image {
+
+        width: 1200px;
+
+    }
+    .sec1 {
+        width: 663px !important;
+        float: left;
+    }
+
+    .right-footer h1 {
+        text-align: right;
+        font-size: 12px;
+        margin-bottom: 0px;
+    }
+
+    .footer{
+        width: 1200px;
+        background-size: 1200px 150px;
+    }
+
+    .left-pannel {
+        margin-top: 58px;
+        width: 663px !important;
+    }
+    .right-footer h1 {
+        text-align: right;
+        font-size: 15px;
+        margin-bottom: 0px;
+    }
+
+}
+@media only screen and (max-width:1024px)  {
+    .banner .banner-image .sec2{
+        width: 410px;
+    }
+    .banner .sec2 .button{
+        width: 96%;
+    }
+    .header .header-inner .social{
+        margin-right: 10px !important;
+        font-size: 17px !important;
+    }
+
+}
+@media only screen and  (max-width:768px) {
+    .arrow{
+        display: none;
+    }
+    .downarrow{
+        display: block !important;
+      padding-top: 27px;
+    }
+    .header{
+        background-size: 765px 150px;
+
+    }
+    .logo {
+        width: 750px;
+    }
+    .footer{
+        width: 700px;
+        background-size: 765px 150px;
+    }
+
+
+}
+
+@media only screen and  (max-width:660px) {
+
+    .header{
+        background-size: 650px 150px;
+
+    }
+    .logo {
+        width: 650px;
+    }
+    .footer{
+        width: 6500px;
+        background-size: 6500px 150px;
+    }
+}
+@media only screen and  (max-width:414px) {
+    .left-pannel{
+        width: 414px !important;
+    }
+    .sec2{
+        width: 405px !important;
+    }
+    .banner .sec2 .button{
+        width: 100%;
+    }
+    .header{
+        background-size: 420px 150px;
+
+    }
+    .sec1{
+        width: 400px !important;
+    }
+    .logo {
+        width: 150px;
+    }
+    .button input{
+        width: 400px;
+    }
+    .footer{
+
+        background-size: 415px 150px;
+    }
+}
+@media only screen and  (max-width:375px) {
+    .left-pannel{
+        width: 372px !important;
+    }
+    .sec2{
+        width: 370px !important;
+    }
+    .banner .sec2 .button{
+        width: 100%;
+    }
+    .header{
+        background-size: 370px 150px;
+
+    }
+    .sec1{
+        width: 310px !important;
+    }
+    .logo {
+        width: 150px;
+    }
+    .button input{
+        width: 340px;
+    }
+    .footer{
+
+        background-size: 373px 150px;
+    }
+    .header{
+        background-image: none;
+        background-color:#e2e2e2;
+    }
+
+    .banner .banner-image{
+        background-image:none;
+
+    }
+}
+
+@media only screen and  (max-width:360px) {
+    .left-pannel{
+        width: 358px !important;
+    }
+    .sec2{
+        width: 358px !important;
+    }
+}
+@media only screen and  (max-width:320px) {
+    .left-pannel {
+        width: 319px !important;
+    }
+    .sec1{
+        width: 22px !important;
+    }
+    .sec2{
+        width: 315px !important;
+    }
+    .button input{
+        width: 300px;
+    }
+}
