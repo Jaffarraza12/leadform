@@ -9,9 +9,9 @@ if ($_SERVER['SERVER_NAME'] == 'localhost'){
  
 } else {
  define('SERVER','localhost');
- define('USER','adornher_apna');
- define('PASS','apna123@');
- define('DB','adornher_apna');
+ define('USER','interna1_leads');
+ define('PASS','iifj123!@#');
+ define('DB','interna1_leads');
  
 
 }
