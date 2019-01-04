@@ -10,7 +10,7 @@ if ($_SERVER['SERVER_NAME'] == 'localhost'){
 } else {
  define('SERVER','localhost');
  define('USER','interna1_leads');
- define('PASS','iifj123!@#');
+ define('PASS','iifj123!@');
  define('DB','interna1_leads');
  
 
